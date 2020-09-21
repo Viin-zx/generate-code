@@ -4,7 +4,7 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  antd: { dark: true },
+  antd: {},
   routes: [{ path: '/', component: '@/pages/index' }],
   proxy: {
     '/api': {

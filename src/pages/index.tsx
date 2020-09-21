@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './index.less';
 import { useRequest } from 'ahooks';
 import { Row, Col, Button } from 'antd';
+import GList from '@/components/GList';
 
 export default () => {
   const { data, loading, run } = useRequest(
@@ -20,7 +21,9 @@ export default () => {
         </Button>
       </Col>
       <Col span={12} className={styles['container-main']}>
-        <div className={styles['container-app']}></div>
+        <div className={styles['container-app']}>
+          <GList />
+        </div>
       </Col>
       <Col span={6} className={styles['container-right']}></Col>
     </Row>
