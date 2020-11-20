@@ -1,22 +1,22 @@
-/** #import# */
+/** @#import#@ */
 
-/** #externalCode# 外部代码 */
+/** @#externalCode#@ 外部代码 */
 
 const basetemplate = props => {
-  /** #varCode# */
+  /** @#varCode#@ */
 
-  /** #logicCode# */
+  /** @#logicCode#@ */
 
   return (
     <>
-      {/** #render# */}
+      {/** @#render#@ */}
       {}
     </>
   );
 };
 
 basetemplate.propTypes = {
-  /** #propTypes# */
+  /** @#propTypes#@ */
 };
 
 export default basetemplate;
