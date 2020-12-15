@@ -7,7 +7,8 @@
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "start-server": "node node-generate/index.js"
+    "start-server": "node node-generate/index.js",
+    "run-generate": "node node-generate/exportTemplate.js"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -26,15 +27,15 @@
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.20",
     "ahooks": "^2.6.0",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
     "lint-staged": "^10.0.7",
-    "mockjs": "^1.1.0",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-dragula": "^1.1.17",
     "umi": "^3.2.20",
     "yorkie": "^2.0.0"
+  },
+  "devDependencies": {
+    "@umijs/fabric": "^2.3.1"
   }
 }

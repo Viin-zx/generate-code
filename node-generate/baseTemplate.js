@@ -2,7 +2,7 @@
 
 /** @#externalCode#@ 外部代码 */
 
-const basetemplate = props => {
+const BaseTemplate = props => {
   /** @#varCode#@ */
 
   /** @#logicCode#@ */
@@ -12,11 +12,11 @@ const basetemplate = props => {
       {/** @#render#@ */}
       {}
     </>
-  );
-};
+  )
+}
 
-basetemplate.propTypes = {
+BaseTemplate.propTypes = {
   /** @#propTypes#@ */
-};
+}
 
-export default basetemplate;
+/** @#HOC#@ */
